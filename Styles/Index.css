@@ -132,12 +132,12 @@
             }
             
             p.intro {
-                padding: 15px;
+                padding-top: 50px;
                 font-family: 'Commissioner', sans-serif;
                 text-align: center;
                 color: #59606d;
                 font-size: 20px;
-                margin: 40px 0px 50px 0;
+                margin: 40 0 50px 0;
             }
             
             .outro {
