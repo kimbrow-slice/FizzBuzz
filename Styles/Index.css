@@ -3,7 +3,7 @@
                 padding-top: 50px;
                 font-family: "Open Sans", Helvetica, arial, sans-serif;
                 text-align: center;
-                background-color: #34343b;
+                background-color: #FFFFFF;
             }
             
             html *,
@@ -57,7 +57,7 @@
             }
             
             .btn-6 {
-                color: #C3C3C3
+                color: #c7c7c7;
             }
             
             .btn-6 span {
@@ -73,7 +73,7 @@
             }
             
             .btn-6:hover {
-                color: #C3C3C3
+                color: #C7C7C7;
             }
             
             .btn-6:hover span {
@@ -95,7 +95,7 @@
             
             i {
                 font-size: 40px;
-                color: #414141;
+                color: #C7C7C7;
                 text-align: center;
                 margin: 40px;
                 padding: 80px 40px 80px 40px;
@@ -109,36 +109,43 @@
             }
             
             .copyright {
-                opacity: 75%;
-                color: #5386E4;
+                opacity: 50%;
+                color: #414141;
             }
             
             .title {
                 font-family: 'Abril Fatface', cursive;
                 font-size: 30px;
                 font-weight: 100;
-                color: #5386E4;
+                color: #59606d;
                 letter-spacing: 1mm;
-                padding: 15px 0 15px 0;
+                padding: 0 0 40px 0;
+                margin: 0px 0 40px 0;
             }
             
             p.intro {
                 padding: 15px;
                 font-family: 'Commissioner', sans-serif;
                 text-align: center;
-                color: #5386E4;
+                color: #59606d;
                 font-size: 20px;
             }
             
             .outro {
                 font-size: 15px;
                 font-family: 'Commissioner', sans-serif;
-                margin: 45px 0 0 auto;
-                color: #5386E4;
+                margin: 100px 0 100px auto;
+                color: #59606d;
             }
             
             #innerTextOutput {
                 outline: none;
-                background-color: #C3C3C3;
+                background-color: #C7C7C7;
+                color: #59606d;
+            }
+            
+            .logo {
+                background-position: center;
+                position: relative;
             }
             /*# sourceMappingURL=Index.css.map */
