@@ -1,0 +1,143 @@
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400|Raleway:300);
+    html {
+        padding-top: 50px;
+        font-family: "Open Sans", Helvetica, arial, sans-serif;
+        text-align: center;
+        background-color: #eeeeee;
+    }
+    
+    html *,
+    html *:before,
+    html *:after {
+        box-sizing: border-box;
+        transition: 0.5s ease-in-out;
+    }
+    
+    html i,
+    html em,
+    html b,
+    html strong,
+    html span {
+        transition: none;
+    }
+    
+    *:before,
+    *:after {
+        z-index: -1;
+    }
+    
+    a {
+        text-decoration: none;
+        line-height: 80px;
+        color: black;
+    }
+    
+    .centerer {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+    
+    @media (min-width: 600px) {
+        .wrap {
+            width: 50%;
+            float: left;
+        }
+    }
+    
+    [class^=btn-] {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        max-width: 250px;
+        margin: 1rem auto;
+        text-transform: uppercase;
+        border: 1px solid currentColor;
+    }
+    
+    .btn-6 {
+        color: #bfbfbf;
+    }
+    
+    .btn-6 span {
+        position: absolute;
+        display: block;
+        width: 0;
+        height: 0;
+        border-radius: 50%;
+        background-color: black;
+        transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+    }
+    
+    .btn-6:hover {
+        color: #bfbfbf;
+    }
+    
+    .btn-6:hover span {
+        width: 225%;
+        height: 562.5px;
+    }
+    
+    .btn-6:active {
+        background-color: #000;
+    }
+    
+    footer {
+        text-align: center;
+    }
+    
+    .social-media {
+        font-size: 40px;
+    }
+    
+    i {
+        font-size: 20px;
+        color: #41414141;
+        text-align: center;
+        margin: 40px;
+        padding: 80px 40px 80px 40px;
+        -webkit-transition: all 0.8s ease-in;
+        transition: all 0.8s ease-in;
+    }
+    
+    i:hover {
+        color: #414141;
+    }
+    
+    .copyright {
+        opacity: 75%;
+    }
+    
+    hr {
+        width: 85%;
+    }
+    
+    .title {
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .right-col {
+        float: right;
+        padding: 20px;
+    }
+    
+    .left-col {
+        float: none;
+        padding: 20px;
+    }
+    
+    .clearfix {
+        clear: both;
+    }
+    
+    h2 {
+        font-family: 'Playfair Display', serif;
+    }
+    
+    p {
+        font-family: 'Commissioner', sans-serif;
+    }
+    /*# sourceMappingURL=Index.css.map */
