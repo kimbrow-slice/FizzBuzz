@@ -5,15 +5,15 @@ document.getElementById("innerTextOutput").onclick = function changeContent() {
     var i;
     sum = 0;
 
-    for (let i = 1; i <= 1000; i++) {
+    for (let i = 1; i < 1000; i++) {
         if (i % 3 === 0 && i % 5 === 0) {
-            console.log("FizzBuzz");
+            document.getElementById("innerTextOutput").innerHTML = ("FizzBuzz");
         } else if (i % 3 === 0) {
-            console.log("Fizz");
+            document.getElementById("innerTextOutput").innerHTML = ("Fizz");
         } else if (i % 5 === 0) {
-            console.log("Buzz");
+            document.getElementById("innerTextOutput").innerHTML = ("Buzz");
         } else {
-            console.log(i);
+            document.getElementById("innerTextOutput").innerHTML = (i);
         }
     }
 }
