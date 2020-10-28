@@ -10,7 +10,7 @@ document.getElementById("innerTextOutput").onclick = function changeContent() {
 
 
     //start for loop
-    for (let i = 1; i <= 500; i++) { //begin with i = 1; my condition is i<= 500; the step is i++ or the postfix form
+    for (let i = 1; i <= 1000; i++) { //begin with i = 1; my condition is i<= 500; the step is i++ or the postfix form
         //the body of the conidtion, if conidition -> run body and run step
         if (i % 3 === 0 && i % 5 === 0) {
             document.getElementById("innerTextOutput").innerHTML += ('FizzBuzz \n');
