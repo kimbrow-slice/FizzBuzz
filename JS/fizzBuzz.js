@@ -38,7 +38,7 @@ document.getElementById("innerTextOutput").onclick = function changeContent() {
              *Fizz
              *Buzz
              */
-            //Which would make the code less readable. 
+            //Which would make the code more readable. 
 
         }
     }
