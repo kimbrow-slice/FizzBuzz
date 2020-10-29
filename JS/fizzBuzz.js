@@ -23,8 +23,8 @@ document.getElementById("innerTextOutput").onclick = function changeContent() {
             output.innerHTML += ('Buzz \n');
         } else {
             output.innerHTML += (i + '\n');
-            //output.innerHTML += (i + '\n') means the following
-            //output.innerHTML returns an Element object representing the element whose id property matches the specified string. 
+            //output.innerHTML += ('....\n') means the following
+            //output returns the const out whose value I set to document.getElementById("innerTextOutput"), I did this follow the DRY ideology
             //.innerHTML is a property used to get or set the HTML content of an element node. It is a part of tthe Document Object Model that allows JavaScript code to manipulate a website being displayed 
             // += adds the value of the right operand to a variable and assigns the result to the variable. In this situation we are using concatenation
             // I had to insert '\n' into the string for the function to add a new line or else it would of been displayed as follows
